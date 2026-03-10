@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-wagmi-eip7702",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "generate:gh-pages": "GITHUB_PAGES=true nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@tanstack/vue-query": "^5.92.9",
+    "@wagmi/core": "^3.4.0",
+    "@wagmi/vue": "^0.5.0",
+    "nuxt": "^4.3.1",
+    "viem": "^2.47.1",
+    "vue": "^3.5.30",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.15.2",
+    "@types/node": "^25.4.0",
+    "eslint": "^10.0.3"
+  }
+}
